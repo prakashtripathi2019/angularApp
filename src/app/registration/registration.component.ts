@@ -10,7 +10,7 @@ import { UserRegService } from '../user-reg.service';
 export class RegistrationComponent implements OnInit {
 
   user :User= new User("","",0,"");
-  message?:any;
+  message:any="";
   constructor(private service:UserRegService) { }
 
   ngOnInit(): void {
